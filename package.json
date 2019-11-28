@@ -1,8 +1,8 @@
 {
-  "name": "scf-protal-web",
+  "name": "react-hook-redux",
   "version": "1.0.0",
-  "description": "web pages for scf",
-  "author": "Shi Wensha",
+  "description": "react-hook-redux",
+  "author": "tylvke",
   "private": true,
   "scripts": {
     "commit": "git add . && git-cz",

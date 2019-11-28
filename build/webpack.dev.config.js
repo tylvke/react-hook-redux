@@ -29,8 +29,7 @@ module.exports = merge(webpackBaseConfig, {
     hot: true, // 开启热更新
     proxy: {
       '/api': {
-        // target: 'http://10.235.157.169/',
-        target: 'http://staging.scf.mi.com/',
+        target: 'http://',
         secure: false,
         changeOrigin: true,
         onProxyReq: (proxyReq, req) => {
@@ -38,7 +37,7 @@ module.exports = merge(webpackBaseConfig, {
             // 写死cookie
             proxyReq.setHeader(
               'Cookie',
-              'pt_JSESSIONID=MGEwOGUzNGQtODA2NC00ZTRjLTkxOTMtMDEzMzRkY2VjZTQ3; staging_pt_JSESSIONID=NDFiZmU0ZDAtMGZlNi00NDg4LTgxZmEtODIxZDg5MjFlMjQ5; userName=177***175; uLocale=zh_CN'
+              ''
             );
           }
           if (req.headers && req.headers.cookie) {

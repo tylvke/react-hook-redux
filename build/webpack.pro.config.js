@@ -45,7 +45,7 @@ module.exports = merge(webpackBaseConfig, {
   output: {
     filename: 'js/[name].[chunkhash].js', // 打包后的文件名称
     chunkFilename: 'js/[name].[chunkhash].js',
-    path: resolve('dist/new_static'), // 打包后的目录，必须是绝对路径
-    publicPath: 'new_static/',
+    path: resolve('dist/static'), // 打包后的目录，必须是绝对路径
+    publicPath: 'static/',
   },
 })
