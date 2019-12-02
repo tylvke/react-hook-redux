@@ -2,6 +2,7 @@
   "name": "react-hook-redux",
   "version": "1.0.0",
   "description": "react-hook-redux",
+  "homepage": "https://tvlvke.github.io/react-hook-reudx",
   "author": "tylvke",
   "private": true,
   "scripts": {
