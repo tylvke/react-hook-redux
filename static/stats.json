@@ -1,0 +1,2234 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.39.3",
+  "hash": "89c5064f9c53d0f0b7f3",
+  "time": 5247,
+  "builtAt": 1575272869175,
+  "publicPath": "static/",
+  "outputPath": "/github/workspace/dist/static",
+  "assetsByChunkName": {
+    "index": [
+      "js/index.d5c146910c39d59b4770.js",
+      "js/index.d5c146910c39d59b4770.js.map"
+    ],
+    "vendor": [
+      "js/vendor.47b7c0f8a7ac64a08e0b.js",
+      "js/vendor.47b7c0f8a7ac64a08e0b.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "../index.html",
+      "size": 357,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "js/index.d5c146910c39d59b4770.js",
+      "size": 7152,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "js/index.d5c146910c39d59b4770.js.map",
+      "size": 28681,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "js/vendor.47b7c0f8a7ac64a08e0b.js",
+      "size": 125590,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "js/vendor.47b7c0f8a7ac64a08e0b.js.map",
+      "size": 303234,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        1,
+        0
+      ],
+      "assets": [
+        "js/vendor.47b7c0f8a7ac64a08e0b.js",
+        "js/vendor.47b7c0f8a7ac64a08e0b.js.map",
+        "js/index.d5c146910c39d59b4770.js",
+        "js/index.d5c146910c39d59b4770.js.map"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        1,
+        0
+      ],
+      "assets": [
+        "js/vendor.47b7c0f8a7ac64a08e0b.js",
+        "js/vendor.47b7c0f8a7ac64a08e0b.js.map",
+        "js/index.d5c146910c39d59b4770.js",
+        "js/index.d5c146910c39d59b4770.js.map"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 12618,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "js/index.d5c146910c39d59b4770.js",
+        "js/index.d5c146910c39d59b4770.js.map"
+      ],
+      "hash": "d5c146910c39d59b4770",
+      "siblings": [
+        1
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 7,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "name": "./src/index.tsx + 4 modules",
+          "index": 0,
+          "index2": 11,
+          "size": 12618,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/github/workspace/src/index.tsx",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx",
+              "index": 0,
+              "index2": 11,
+              "size": 1817,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/github/workspace/src/index.tsx",
+                  "loc": "index"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/hooks/useRedux.tsx",
+              "name": "./src/hooks/useRedux.tsx",
+              "index": 8,
+              "index2": 7,
+              "size": 2047,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "issuerId": null,
+              "issuerName": "./src/index.tsx",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "name": "./src/index.tsx"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "@/hooks/useRedux",
+                  "loc": "10:0-63"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "@/hooks/useRedux",
+                  "loc": "13:24-31"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "@/hooks/useRedux",
+                  "loc": "19:24-31"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "@/hooks/useRedux",
+                  "loc": "40:13-21"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "@/hooks/useRedux",
+                  "loc": "43:31-39"
+                }
+              ],
+              "usedExports": [
+                "Context",
+                "default",
+                "Provider"
+              ],
+              "providedExports": [
+                "Context",
+                "combineModels",
+                "Provider",
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "name": "./src/store/index.ts",
+              "index": 9,
+              "index2": 10,
+              "size": 132,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "issuerId": null,
+              "issuerName": "./src/index.tsx",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "name": "./src/index.tsx"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "@/store",
+                  "loc": "11:0-29"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "module": "./src/index.tsx",
+                  "moduleName": "./src/index.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "@/store",
+                  "loc": "40:22-28"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 1
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/model/counter.ts",
+              "name": "./src/store/model/counter.ts",
+              "index": 10,
+              "index2": 8,
+              "size": 4429,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "issuerId": null,
+              "issuerName": "./src/store/index.ts",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "name": "./src/index.tsx"
+                },
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "name": "./src/store/index.ts"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "module": "./src/store/index.ts",
+                  "moduleName": "./src/store/index.ts",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./model/counter",
+                  "loc": "1:0-38"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "module": "./src/store/index.ts",
+                  "moduleName": "./src/store/index.ts",
+                  "type": "harmony import specifier",
+                  "userRequest": "./model/counter",
+                  "loc": "4:13-20"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "state",
+                "actions",
+                "mutations",
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 2
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/model/todos.ts",
+              "name": "./src/store/model/todos.ts",
+              "index": 11,
+              "index2": 9,
+              "size": 4183,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+              ],
+              "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "issuerId": null,
+              "issuerName": "./src/store/index.ts",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+                  "name": "./src/index.tsx"
+                },
+                {
+                  "id": null,
+                  "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "name": "./src/store/index.ts"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "module": "./src/store/index.ts",
+                  "moduleName": "./src/store/index.ts",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./model/todos",
+                  "loc": "2:0-34"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+                  "module": "./src/store/index.ts",
+                  "moduleName": "./src/store/index.ts",
+                  "type": "harmony import specifier",
+                  "userRequest": "./model/todos",
+                  "loc": "5:11-16"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "state",
+                "actions",
+                "mutations",
+                "default"
+              ],
+              "optimizationBailout": [
+              ],
+              "depth": 2
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "/github/workspace/src/index.tsx",
+          "reasons": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "reason": "split chunk (cache group: vendor) (name: vendor)",
+      "size": 130580,
+      "names": [
+        "vendor"
+      ],
+      "files": [
+        "js/vendor.47b7c0f8a7ac64a08e0b.js",
+        "js/vendor.47b7c0f8a7ac64a08e0b.js.map"
+      ],
+      "hash": "47b7c0f8a7ac64a08e0b",
+      "siblings": [
+        0
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/github/workspace/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "index": 1,
+          "index2": 2,
+          "size": 190,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "issuerId": null,
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "13:20-36"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "8:0-42"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "8:0-57"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "9:21-34"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "13:13-23"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "16:11-16"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "16:44-49"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "16:96-101"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "19:13-23"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "35:13-23"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "37:11-16"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "37:44-49"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "37:136-141"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "37:169-174"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "43:11-16"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "45:7-12"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "45:38-43"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "45:71-76"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "62:11-16"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 1,
+          "identifier": "/github/workspace/node_modules/object-assign/index.js",
+          "name": "./node_modules/object-assign/index.js",
+          "index": 3,
+          "index2": 0,
+          "size": 2108,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+          "issuerId": 3,
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": 0,
+              "identifier": "/github/workspace/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js"
+            },
+            {
+              "id": 3,
+              "identifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+              "name": "./node_modules/react/cjs/react.production.min.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
+              "loc": "10:19-43"
+            },
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
+              "loc": "13:39-63"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "id": 2,
+          "identifier": "/github/workspace/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "index": 4,
+          "index2": 6,
+          "size": 1363,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "issuerId": null,
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "9:0-35"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+              "module": "./src/index.tsx + 4 modules",
+              "moduleName": "./src/index.tsx + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "45:0-6"
+            }
+          ],
+          "usedExports": [
+            "render"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 3,
+          "identifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "index": 2,
+          "index2": 1,
+          "size": 6815,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/react/index.js",
+          "issuerId": 0,
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": 0,
+              "identifier": "/github/workspace/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/github/workspace/node_modules/react/index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:19-59"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 4,
+          "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "index": 5,
+          "index2": 5,
+          "size": 114094,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/react-dom/index.js",
+          "issuerId": 2,
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": 2,
+              "identifier": "/github/workspace/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/github/workspace/node_modules/react-dom/index.js",
+              "module": "./node_modules/react-dom/index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/react-dom.production.min.js",
+              "loc": "35:19-63"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 5,
+          "identifier": "/github/workspace/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "index": 6,
+          "index2": 4,
+          "size": 198,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 4,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": 2,
+              "identifier": "/github/workspace/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
+            },
+            {
+              "id": 4,
+              "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "scheduler",
+              "loc": "13:66-86"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "id": 6,
+          "identifier": "/github/workspace/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "index": 7,
+          "index2": 3,
+          "size": 5812,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/github/workspace/node_modules/scheduler/index.js",
+          "issuerId": 5,
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": 2,
+              "identifier": "/github/workspace/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js"
+            },
+            {
+              "id": 4,
+              "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+            },
+            {
+              "id": 5,
+              "identifier": "/github/workspace/node_modules/scheduler/index.js",
+              "name": "./node_modules/scheduler/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/github/workspace/node_modules/scheduler/index.js",
+              "module": "./node_modules/scheduler/index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/scheduler.production.min.js",
+              "loc": "4:19-63"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "/github/workspace/src/index.tsx",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/github/workspace/node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "index": 1,
+      "index2": 2,
+      "size": 190,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+      "issuerId": null,
+      "issuerName": "./src/index.tsx",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "13:20-36"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "8:0-57"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "8:0-42"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "9:21-34"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "13:13-23"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "16:11-16"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "16:44-49"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "16:96-101"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "19:13-23"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "35:13-23"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "37:11-16"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "37:44-49"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "37:136-141"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "37:169-174"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "43:11-16"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "45:7-12"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "45:38-43"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "45:71-76"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "62:11-16"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "/github/workspace/node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "index": 3,
+      "index2": 0,
+      "size": 2108,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        },
+        {
+          "id": 0,
+          "identifier": "/github/workspace/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "10:19-43"
+        },
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:39-63"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": 2,
+      "identifier": "/github/workspace/node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "index": 4,
+      "index2": 6,
+      "size": 1363,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+      "issuerId": null,
+      "issuerName": "./src/index.tsx",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "9:0-35"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+          "module": "./src/index.tsx + 4 modules",
+          "moduleName": "./src/index.tsx + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "45:0-6"
+        }
+      ],
+      "usedExports": [
+        "render"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 3,
+      "identifier": "/github/workspace/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "index": 2,
+      "index2": 1,
+      "size": 6815,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/react/index.js",
+      "issuerId": 0,
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        },
+        {
+          "id": 0,
+          "identifier": "/github/workspace/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/github/workspace/node_modules/react/index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:19-59"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": 4,
+      "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "index": 5,
+      "index2": 5,
+      "size": 114094,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/react-dom/index.js",
+      "issuerId": 2,
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        },
+        {
+          "id": 2,
+          "identifier": "/github/workspace/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/github/workspace/node_modules/react-dom/index.js",
+          "module": "./node_modules/react-dom/index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/react-dom.production.min.js",
+          "loc": "35:19-63"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": 5,
+      "identifier": "/github/workspace/node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "index": 6,
+      "index2": 4,
+      "size": 198,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 4,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        },
+        {
+          "id": 2,
+          "identifier": "/github/workspace/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "scheduler",
+          "loc": "13:66-86"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": 6,
+      "identifier": "/github/workspace/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "index": 7,
+      "index2": 3,
+      "size": 5812,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/github/workspace/node_modules/scheduler/index.js",
+      "issuerId": 5,
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx"
+        },
+        {
+          "id": 2,
+          "identifier": "/github/workspace/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "/github/workspace/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+        },
+        {
+          "id": 5,
+          "identifier": "/github/workspace/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/github/workspace/node_modules/scheduler/index.js",
+          "module": "./node_modules/scheduler/index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/scheduler.production.min.js",
+          "loc": "4:19-63"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "id": 7,
+      "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx d0b13e90f0fc2c81784cbc869229d710",
+      "name": "./src/index.tsx + 4 modules",
+      "index": 0,
+      "index2": 11,
+      "size": 12618,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "/github/workspace/src/index.tsx",
+          "loc": "index"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module)"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "name": "./src/index.tsx",
+          "index": 0,
+          "index2": 11,
+          "size": 1817,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/github/workspace/src/index.tsx",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0
+        },
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/hooks/useRedux.tsx",
+          "name": "./src/hooks/useRedux.tsx",
+          "index": 8,
+          "index2": 7,
+          "size": 2047,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "issuerId": null,
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@/hooks/useRedux",
+              "loc": "10:0-63"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "@/hooks/useRedux",
+              "loc": "13:24-31"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "@/hooks/useRedux",
+              "loc": "19:24-31"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "@/hooks/useRedux",
+              "loc": "40:13-21"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "@/hooks/useRedux",
+              "loc": "43:31-39"
+            }
+          ],
+          "usedExports": [
+            "Context",
+            "default",
+            "Provider"
+          ],
+          "providedExports": [
+            "Context",
+            "combineModels",
+            "Provider",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+          "name": "./src/store/index.ts",
+          "index": 9,
+          "index2": 10,
+          "size": 132,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+          "issuerId": null,
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@/store",
+              "loc": "11:0-29"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "@/store",
+              "loc": "40:22-28"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/model/counter.ts",
+          "name": "./src/store/model/counter.ts",
+          "index": 10,
+          "index2": 8,
+          "size": 4429,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+          "issuerId": null,
+          "issuerName": "./src/store/index.ts",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "name": "./src/store/index.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "module": "./src/store/index.ts",
+              "moduleName": "./src/store/index.ts",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./model/counter",
+              "loc": "1:0-38"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "module": "./src/store/index.ts",
+              "moduleName": "./src/store/index.ts",
+              "type": "harmony import specifier",
+              "userRequest": "./model/counter",
+              "loc": "4:13-20"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "state",
+            "actions",
+            "mutations",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": null,
+          "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/model/todos.ts",
+          "name": "./src/store/model/todos.ts",
+          "index": 11,
+          "index2": 9,
+          "size": 4183,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+          ],
+          "issuer": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+          "issuerId": null,
+          "issuerName": "./src/store/index.ts",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/index.tsx",
+              "name": "./src/index.tsx"
+            },
+            {
+              "id": null,
+              "identifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "name": "./src/store/index.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "module": "./src/store/index.ts",
+              "moduleName": "./src/store/index.ts",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./model/todos",
+              "loc": "2:0-34"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/github/workspace/node_modules/babel-loader/lib/index.js!/github/workspace/node_modules/ts-loader/index.js??ref--5-0!/github/workspace/src/store/index.ts",
+              "module": "./src/store/index.ts",
+              "moduleName": "./src/store/index.ts",
+              "type": "harmony import specifier",
+              "userRequest": "./model/todos",
+              "loc": "5:11-16"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "state",
+            "actions",
+            "mutations",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [
+      ],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [
+      ],
+      "warnings": [
+      ],
+      "publicPath": "static/",
+      "outputPath": "/github/workspace/dist/static",
+      "assetsByChunkName": {
+      },
+      "assets": [
+        {
+          "name": "../index.html",
+          "size": 3906,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+          ],
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "../index.html"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "../index.html"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 206,
+          "names": [
+          ],
+          "files": [
+            "../index.html"
+          ],
+          "hash": "ab36176357082fffcb8e",
+          "siblings": [
+          ],
+          "parents": [
+          ],
+          "children": [
+          ],
+          "childrenByOrder": {
+          },
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/github/workspace/node_modules/html-webpack-plugin/lib/loader.js!/github/workspace/node_modules/html-loader/index.js??ref--10-0!/github/workspace/template/index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./template/index.ejs",
+              "index": 0,
+              "index2": 0,
+              "size": 206,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/github/workspace/node_modules/html-webpack-plugin/lib/loader.js!/github/workspace/template/index.ejs"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "/github/workspace/node_modules/html-webpack-plugin/lib/loader.js!/github/workspace/template/index.ejs",
+              "reasons": [
+              ]
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/github/workspace/node_modules/html-webpack-plugin/lib/loader.js!/github/workspace/node_modules/html-loader/index.js??ref--10-0!/github/workspace/template/index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./template/index.ejs",
+          "index": 0,
+          "index2": 0,
+          "size": 206,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/github/workspace/node_modules/html-webpack-plugin/lib/loader.js!/github/workspace/template/index.ejs"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [
+          ],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [
+      ],
+      "name": "html-webpack-plugin for \"../index.html\""
+    }
+  ]
+}
