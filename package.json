@@ -96,7 +96,7 @@
     "koa2-proxy": "^1.1.7",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "object-create-ie8": "^1.0.0",
     "object-defineproperty-ie": "^1.2.0",
     "object-defineproperty-ie8": "^1.0.1",
